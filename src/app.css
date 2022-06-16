@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 200;
+	/* font-family: 'Quicksand', sans-serif; */
+}
+
+p {
+	@apply mt-3 mx-auto text-base  text-primary;
+}
+/* sm */
+@media (min-width: 640px) {
+	p {
+		@apply leading-6 mt-4;
+	}
+}
+
+@media (min-width: 1024px) {
+	p {
+		@apply leading-7 mx-0;
+	}
+}
