@@ -130,8 +130,8 @@
 		{#each sources as source}
 			<img
 				src={source.src}
-				alt=""
-				class="w-full h-full md:h-64 md:object-cover border-white border-2 "
+				alt="incompar"
+				class="w-auto  md:h-64 object-contain md:object-cover border-white border-2 "
 			/>
 		{/each}
 	</div>
