@@ -5,7 +5,7 @@
 	import Language from './Language.svelte';
 	import { t } from '$lib/translations';
 
-	let open = true;
+	let open = false;
 </script>
 
 <div class="max-w-7xl w-full mx-auto px-4 pt-4  ">
