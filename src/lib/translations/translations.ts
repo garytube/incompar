@@ -173,5 +173,90 @@ export default {
 			intro:
 				'SunSquare erweitert permanent seine Produktlinie und führt das originale SunSquare Sonnensegel neuen Interpretationen zu. Die neue Produktgeneration wird mit dem Zusatz „Cantilever“ im Produktnamen angeführt. Die neuerste Errungenschaft - der Luxus-Segelschirm FOLD & ROLL. Dieser wurde auf diversen Messen dem fachkundigen Publikum präsentiert und erregte viel Aufmerksamkeit und internationales Echo.'
 		}
+	},
+	es: {
+		lang,
+		change_language: 'Seitensprache ändern',
+		sunSquare: 'SunSquare',
+		impressions: 'Neuste Projekte',
+		section_headline: 'Sonne & Schatten<br/>365 Tage im Jahr.',
+		next: 'Nächstes',
+		prev: 'Zurück',
+		imgAlt: 'Rectangular Sails Premium Sails for Sun Protection',
+		button: {
+			explore_sails: 'Zu den Modellen',
+			explore_triangular: 'Zu den dreieckigen  Modellen',
+			explore_rectengular: 'Zu den rechteckigen Modellen',
+			twelve_reasons: '12 Gründe für SunSquare'
+		},
+		home: {
+			title: 'Premium-Segel<br>für Sonnenschutz & Ambiente',
+			intro:
+				'Incompar designed seit 1999 Schatten auf den Balearischen Inseln, dem spanischen Festland sowie auf den Kanarischen Inseln. Egal ob Sie genaue Vorstellungen von ihrem Segel haben, wo Sie Schatten benötigen, oder sich absolut nicht sicher sind, wie Sie den von Ihnen gewählten Standort beschatten können. Wir sind ihre Fachfirma dafür.Wir beraten Sie vor Ort und erstellen gratis ein Festpreisangebot mit 3D Visualisierung und Schattenverlauf.',
+			how_title: 'WIE ES FUNKTIONIERT',
+			how_content:
+				'Unser Fachpersonal installiert seit mehr als 25 Jahren Sonnensegel. Jede Anlage wird individuell auf die Anforderungen des Kunden und den örtlichen Gegebenheiten zugeschnitten.<br><br>Sie können sich darauf verlassen, dass wir das gesamte Projekt erstellen oder auf Ihre spezifischen Bedürfnisse eingehen.<br><br>Darüber hinaus erbringen wir anspruchsvolle Ingenieurleistungen, die notwendig sind, um den immer anspruchsvolleren und komplexeren Herausforderungen des modernen Baus gerecht zu werden.<br><br>Hausdämmung, Isolation, Arbeitssicherheit, Sauberkeit, Pünktlichkeit, Flexibilität und professionelles auftreten gehören bei uns zum Standard.'
+		},
+		sails: {
+			models: 'Modelle',
+			catchFrase: 'Sonne & Schatten, 365 Tage pro Jahr.',
+			triangular: {
+				premium: 'Premium<br/>Dreiecksegel',
+				name: 'Dreieckige ',
+				description:
+					'Mit der patentierten Technik von SunSquare ist das Dreiecksegel das ultimative Produkt in der Sonnensegel- und Beschattungstechnologie. Ein elektronisch automatisiertes  Rollsystem, maßgeschneidert für jeden Kunden, unter Verwendung der hochwertigsten verfügbaren Edelstahl- und Aluminiummaterialien; das Dreiecksegel ist die wahre Definition für Schattengebung. Incompar kann für Sie dieses unglaublich vielseitige Produkt als architektonischen Akzent, Hofüberdachung oder sogar als Freiflächenüberdachung bis zu 80qm2 pro Segel installieren. Das Dreieckssegel bietet Schatten, der Ihren Bedürfnissen entspricht.',
+				content:
+					'Mit der patentierten Technik von SunSquare ist das Dreiecksegel das ultimative Produkt in der Sonnensegel- und Beschattungstechnologie. Ein elektronisch automatisiertes  Rollsystem, maßgeschneidert für jeden Kunden, unter Verwendung der hochwertigsten verfügbaren Edelstahl- und Aluminiummaterialien; das Dreiecksegel ist die wahre Definition für Schattengebung.<br><br>Incompar kann für Sie dieses unglaublich vielseitige Produkt als architektonischen Akzent, Hofüberdachung oder sogar als Freiflächenüberdachung bis zu 80qm2 pro Segel installieren.Das Dreieckssegel bietet Schatten, der Ihren Bedürfnissen entspricht. Sollte sich ein Sonnensegel als unpassend erweisen, kann die gleiche Konstruktion für ein Doppeldreiecksegel verwendet werden, was eine alternative Positionierung der zentralen Spindel ermöglicht.Jedes Sonnensegel ist ein Unikat und wird nur für Sie produziert und passgenau bei ihrem Projekt montiert.'
+			},
+			rectangular: {
+				premium: 'Premium<br/>Rechtecksegel',
+				name: 'Rechteckige',
+				description:
+					'SunSquare hat erkannt, dass bei vielen modernen Bauten Dreiecksegel nicht brauchbar sind und hat darum das fortschrittlichste rechteckige Sonnensegel-System auf dem Markt entwickelt. Das Rechtecksegel, das seinen Ruf mit hochwertigstem Material für praktisch unverwüstliche Produkte aufrechterhält, ist genauso beeindruckend wie seine Geschwisterprodukte. Maßgeschneidert für die Bedürfnisse jedes Kunden, wird dieses elektronisch automatisierte Sonnensegel aus hochwertigem Edelstahl und Aluminiumteilen in Flugzeugqualität hergestellt.',
+				content:
+					'SunSquare hat erkannt, dass bei vielen modernen Bauten Dreiecksegel nicht brauchbar sind und hat darum das fortschrittlichste rechteckige Sonnensegel-System auf dem Markt entwickelt. Das Rechtecksegel, das seinen Ruf mit hochwertigstem Material für praktisch unverwüstliche Produkte aufrechterhält, ist genauso beeindruckend wie seine Geschwisterprodukte. Maßgeschneidert für die Bedürfnisse jedes Kunden, wird dieses elektronisch automatisierte Sonnensegel aus hochwertigem Edelstahl und Aluminiumteilen in Flugzeugqualität hergestellt. Standard ist zudem auch ein Windwächter sowie eine Funkfernbedienung.<br><br>Erhältlich mit Stoffen, die einem gleichermaßen Regen- und Sonnenschutz bieten, kann das Design für jede Größe und jeden Bedarf angepasst werden, von Restauranthöfen über private Pool- Lounge - Bereiche bis hin zu Bootsdecks.<br><br>Ebenso halten die Segel Abendfeuchte ab und es entsteht ein Raumgefühl welches nachts mit indirekter Beleuchtung ins Segeltuch noch verstärkt wird.Auch hierzu hat Sunsquare LED Leuchten entwickelt die perfekt zu den Segeln passen.Sie sind dimmbar und über Funksteuerung zu bedienen.'
+			}
+		},
+		about: {
+			title: 'Incompar, Ihr führender Anbieter von Sonnensegeln seit 1999. ',
+			subtitle:
+				'Incompar steht für mehr als 50 Jahre Erfahrung mit Sonnen-, und Regenschutz. Mithilfe einzigartiger Designs und modernster 3D Technologie verwandeln wir Traum- Immobilien in etwas außergewöhnliches.',
+			key_facts: 'Fakten',
+			sales: 'Verkaufsvolumen',
+			years: 'Jahre',
+			projectsAnno: 'Projekte pro Jahr',
+			experience: 'Jahre Erfahrung',
+			values_title: 'Unsere Werte',
+			values: {
+				SERVICE_TITLE: 'Kundenservice',
+				SERVICE:
+					'Zuverlässigkeit, Flexibilität, Fachkompetenz und handwerkliches Geschick sind selbstverständlich für uns. In Kombination mit unserem Engagement und unserer Stärke als Team sehen wir jede Aufgabe als Herausforderung. Die Zufriedenheit jedes einzelnen Kunden hat für uns höchste Priorität.',
+				HOTEL_TITLE: 'HOTELS, RESTAURANTS & MEHR',
+				HOTEL:
+					'Sonnen- und Regen-Lösungen für Hotels, Apartments, Restaurants, Villen und Großprojekte sind unser tägliches Geschäft, aber niemals Routine.',
+				PLANNING_TITLE: '3D-PLANUNG',
+				PLANNING:
+					'Wir entwickeln für Sie einzigartige Designs, produzieren alles aus unseren interaktiven 3D-Modellen und arbeiten mit architektonischen Grundrissen, selbst wenn Ihr Haus noch nicht gebaut sein sollte.',
+				ARCHITECTURE_TITLE: 'ARCHITEKTUR',
+				ARCHITECTURE:
+					'Durch die Kombination unserer Fähigkeiten und unseres Fachwissens in den Bereichen Architektur, Design und Planung können wir unseren Kunden Räume bieten, die sowohl funktional als auch effizient sind und es ihnen ermöglichen, das Leben im Freien noch mehr zu genießen.'
+			},
+			content: `<p>Wir von Incompar, premium Partner Sunquare Spanien,  haben uns als Anbieter von preisgekrönten High-End-Sonnensegeln, Spezialmarkisen und individuellen Beschattungslösungen in jeder Größe und Form am Markt etabliert.</p><p>Als Top 3 Partner von SunSquare genießt Incompar seit mehr als 20 Jahren das Vertrauen seiner Partner und Kunden für die hohe Qualität seiner Produkte, Installationen und Dienstleistungen auf den Balearen, dem spanischen Festland und den Kanarischen Inseln.  Wir sind spezialisiert auf Großprojekte, Hotels, Privatgrundstücke und Restaurants.</p><p>Beginnend mit einer unverbindlichen Beratung und einem anschließenden professionellen Aufbau ist unser oberstes Ziel, eine gute und langfristige Beziehung zu unseren Kunden aufzubauen. Unsere Anlagen aus den ersten Firmenjahren laufen immer noch einwandfrei!</p><p>Incompar steht für hochwertige, individuelle Design- und Architekturlösungen für unsere Kunden.</p><p>Rufen Sie uns jetzt an, um einen Termin für eine kostenlose Beratung mit erfahrenen Sunsquare-Mitarbeitern zu vereinbaren, um schnell festzustellen, wie Sie am besten ein Sonnensegel auf Ihrem Grundstück installieren können.</p>`
+		},
+		reasons: {
+			title: '12 GUTE GRÜNDE FÜR EIN ORIGINAL SUNSQUARE® SONNENSEGEL'
+		},
+		contact: {
+			general: 'Allgemeines',
+			costumer_service: 'Kundenservice',
+			for_professionals: 'Für Professionelle',
+			office_hours: 'Öffnungszeiten',
+			days: 'Montag - Freitag',
+			show_map: 'Karte anzeigen'
+		},
+		models: {
+			intro:
+				'SunSquare erweitert permanent seine Produktlinie und führt das originale SunSquare Sonnensegel neuen Interpretationen zu. Die neue Produktgeneration wird mit dem Zusatz „Cantilever“ im Produktnamen angeführt. Die neuerste Errungenschaft - der Luxus-Segelschirm FOLD & ROLL. Dieser wurde auf diversen Messen dem fachkundigen Publikum präsentiert und erregte viel Aufmerksamkeit und internationales Echo.'
+		}
 	}
 };
