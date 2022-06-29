@@ -12,6 +12,12 @@ export const userLanguage = derived<Writable<App.Session>, Lang>(session, ($sess
 	}
 });
 
+/**
+ * This Endpoint soul purpose is to return the current language selected by the user.
+ * by setting a cookie with the language code.
+ * 
+ * this endpoints gets called by the src/lib/store/userLanguage.ts Store
+ */
 export const setLang = (lang: Lang) => {
 	session.update(($session) => ({ ...$session, lang }));
 	fetch('/lang', { method: 'PUT', body: lang });
