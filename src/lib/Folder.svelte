@@ -12,7 +12,6 @@
 	{:else}
 		<div class="bg-slate-200 block p-2">
 			<label class="font-medium text-slate-600" for={key}>{key}</label>
-			<!-- <input bind:value={form[key]} type="text" class="w-full p-2" name={key} /> -->
 			<textarea bind:value={form[key]} class="w-full p-2" name={key} />
 		</div>
 	{/if}
