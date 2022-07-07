@@ -15,10 +15,10 @@
 		aria-label="go to home"
 		class="md:h-32 md:mb-12 flex flex-1 flex-row items-end justify-center md:justify-start"
 	>
-		<a href="/" alt="Home">
+		<a href="/" name="Home" alt="Home">
 			<Logo />
 		</a>
-		<div class="flex ml-auto  hidden md:block">
+		<div class="ml-auto  hidden md:block">
 			<Language />
 			<nav class=" ">
 				<NavLinks />

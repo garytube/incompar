@@ -99,7 +99,7 @@ const modelsDE: Model[] = [
 		image: 'https://www.sunsquare.com/sites/default/files/fr_open.jpg?fid=663',
 		type: 'triangular',
 		title: 'FOLD & ROLL',
-		text: 'Die 270 Grad Verdrehbarkeit zaubert aus dem 30 m² Segelschirm einen 75 m² großen Sonnenschutz. Noch dazu ist das Sonnensegel intelligent. Wenn der Wind zu stark wird, klappt das Armsystem automatisch ein, und das Segel rollt sich zusammen. <a class="block max-w-max font-normal items-center justify-center px-4 py-1 my-4 text-sm  border border-transparent text-primary bg-gray-200" href="/dl/foldroll_technische_plaene_0.pdf">Download FOLD & ROLL Info (PDF)</a> <img width="350px" src=\'https://www.sunsquare.com/sites/default/files/fr_twister.jpg?fid=664\'/>'
+		text: 'Die 270 Grad Verdrehbarkeit zaubert aus dem 30 m² Segelschirm einen 75 m² großen Sonnenschutz. Noch dazu ist das Sonnensegel intelligent. Wenn der Wind zu stark wird, klappt das Armsystem automatisch ein, und das Segel rollt sich zusammen. <a class="block max-w-max font-normal items-center justify-center px-4 py-1 my-4 text-sm  border border-transparent text-primary bg-gray-200" href="/dl/foldroll_technische_plaene_0.pdf">Download FOLD & ROLL Info (PDF)</a> <img width="350px" alt="FOLD & ROLL" src=\'/fr_twister.webp\'/>'
 	}
 ];
 
