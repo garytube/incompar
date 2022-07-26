@@ -1,4 +1,5 @@
 # Incompar.es
+www.incompar.es
 
 Since 1999 Incompar has been designing shade on the Balearic Islands, the Spanish Mainland, and the Canary Islands. Whether you have a precise idea about your sail, where you need shade or are absolutely not sure how to shade your chosen location, we are your experts. We advise you on-site and create a fixed price offer including a 3D visualization and shadow progression-free of charge.
 
