@@ -18,15 +18,17 @@ Since 1999 Incompar has been designing shade on the Balearic Islands, the Spanis
 #### Gallery
 
 ```ts
-	// import all images from a given path
-  const importedImages = import.meta.globEager('$assets/sunsquare/tri/gallery/*.jpg');
-  // transform imports to a useable array of slides - each entry can be used as img.src
-	const slides = Object.entries(importedImages).map((i) => i[1].default);
+// import all images from a given path
+const importedImages = import.meta.globEager('$assets/sunsquare/tri/gallery/*.jpg');
+// transform imports to a useable array of slides - each entry can be used as img.src
+const slides = Object.entries(importedImages).map((i) => i[1].default);
 ```
 
 #### Translator
 I wanted to give the Editor an easy-ish interface for editing translations without me fiddling with text files.
+
 - https://incompar.es/debug/lang?lang=en
+
 It is automatically generated from `src/lib/translations/translations.ts`
 Not perfect but it got the job done :)
 
