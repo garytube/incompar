@@ -1,42 +1,31 @@
-# create-svelte
+# Incompar.es
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Since 1999 Incompar has been designing shade on the Balearic Islands, the Spanish Mainland and the Canary Islands. Whether you have a precise idea about your sail, where you need shade, or are absolutely not sure how to shade your chosen location, we are your experts. We advise you on site and create a fixed price offer including a 3D visualization and shadow progression free of charge.
 
-## Creating a project
+## Tech Stack
+- SvelteKit
+- Tailwind CSS
+- Vercel
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Specials
 
-# create a new project in my-app
-npm init svelte@next my-app
+- 🌏 i18n Multi-Language (de,en, es soon-ish) powered by  [sveltekit-i18n](https://www.npmjs.com/package/sveltekit-i18n)
+- 🖼️ Automatic Gallery generation & image optimaization (viteImagemin)
+- 🎨 Handcrafted Design
+
+
+#### Gallery
+
+````ts
+	// import all images from a given path
+  const importedImages = import.meta.globEager('$assets/sunsquare/tri/gallery/*.jpg');
+  // transform imports to a useable array of slides - each entry can be used as img.src
+	const slides = Object.entries(importedImages).map((i) => i[1].default);
 ```
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.
-
-# incompar
+#### Translator
+I wanted to give the Editor an easy-ish interface for editing translations without me fiddeling with text files.
+- https://incompar.es/debug/lang?lang=en
+It is automaticly generated from `src/lib/translations/translations.ts`
+Not perfect but got the job done :)
