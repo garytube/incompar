@@ -20,7 +20,7 @@
 	const slides = Object.entries(importedImages).map((i) => i[1].default);
 	const thumbs = Object.entries(importedThumbs).map((i) => i[1].default);
 
-	$: triangularModels = models[$locale].filter((m) => m.type === 'triangular');
+	$: triangularModels = models.filter((m) => m.type === 'triangular');
 </script>
 
 <Container>
