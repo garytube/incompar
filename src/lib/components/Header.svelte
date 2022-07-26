@@ -19,7 +19,9 @@
 			<Logo />
 		</a>
 		<div class="ml-auto  hidden md:block">
-			<Language />
+			<div class="flex max-w-max ml-auto">
+				<Language />
+			</div>
 			<nav class=" ">
 				<NavLinks />
 			</nav>
