@@ -9,11 +9,10 @@
 	import Container from '$lib/components/Container.svelte';
 	import ButtonBlack from '../../lib/components/ButtonBlack.svelte';
 	import FlowerGrid from '$lib/components/Gallery/FlowerGrid.svelte';
-	import models from '../models/_models';
 	import ModelList from '$lib/components/lists/ModelList.svelte';
 	import SunSquareLogo from '$lib/components/SunSquareLogo.svelte';
 	import H1 from '$lib/components/H1.svelte';
-	import { locale, t } from '$lib/translations';
+	import { locale, t, ModelsTranslation as models } from '$lib/translations';
 	import GalleryLightbox from '$lib/components/Gallery/GalleryLightbox.svelte';
 
 	const importedImages = import.meta.globEager('$assets/sunsquare/tri/gallery/*.jpg');
