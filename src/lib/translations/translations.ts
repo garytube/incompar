@@ -45,7 +45,7 @@ export default {
 			}
 		},
 		about: {
-			title: 'Incompar<br/>Your leader in sunsails since 1999.',
+			title: 'Incompar<br/>Your leader in sunsails since 1999',
 			subtitle:
 				'Incompar has been providing sun and rain protection for over 20 years. With the help of unique designs and the latest 3D technology, we transform dream properties into something extraordinary.',
 			key_facts: 'Key Facts',
@@ -72,7 +72,7 @@ export default {
 			content: `<p>We at Incompar have established ourselves on the market as the top supplier of award winning, high-end sun sails, special awnings and individual shading solutions in any size and shape.</p><p>As the premium partner of SunSquare Spain, Incompar enjoys the trust of its partners and customers for the high quality of its products, installations and services within the Balearic Islands, the Spanish Mainland and the Canary Islands, since more then 20 years now. We are specialized in large scaled projects, hotels, privat properties and restaurants.</p><p>From the beginning of our non-binding consultation until the end of our professional installation, our main aim is to build up great long-term relationship with our customers. The company's first-year systems are still working flawlessly.</p><p>Incompar stands for high quality, customized design and architectural solutions for our clients.<br>Call us now to arrange a date for a free consultation with experienced Sunsquare staff to quickly determine how to best to install a Sunsail on your property.</p>`
 		},
 		reasons: {
-			title: 'GOOD REASONS FOR AN ORIGINAL SUNSQUARE® SUNSAIL',
+			title: '12 GOOD REASONS FOR AN ORIGINAL SUNSQUARE® SUNSAIL',
 			intro:
 				'	SunSquare is the inventor of fully automatic, radio-controlled and wind-monitored, rollable	awning systems with worldwide patent protection.'
 		},
@@ -133,7 +133,7 @@ export default {
 			}
 		},
 		about: {
-			title: 'Incompar, Ihr führender Anbieter von Sonnensegeln seit 1999. ',
+			title: 'Incompar<br>Ihr führender Anbieter von Sonnensegeln seit 1999',
 			subtitle:
 				'Incompar steht für mehr als 50 Jahre Erfahrung mit Sonnen-, und Regenschutz. Mithilfe einzigartiger Designs und modernster 3D Technologie verwandeln wir Traum- Immobilien in etwas außergewöhnliches.',
 			key_facts: 'Fakten',
@@ -187,7 +187,7 @@ export default {
 			explore_sails: 'Explorar velas',
 			explore_triangular: 'Explorar velas triangulares',
 			explore_rectengular: 'Explorar velas rectangulares',
-			twelve_reasons: '12 razones para SunSquare'
+			twelve_reasons: '12 Razones para SunSquare'
 		},
 		home: {
 			title: 'Velas Premium<br>para proteger del sol y ambientar',
@@ -218,7 +218,7 @@ export default {
 			}
 		},
 		about: {
-			title: 'Incompar, Líder en velas de sol desde 1999.<br>',
+			title: 'Incompar<br>Líder en velas de sol desde 1999',
 			subtitle:
 				'En Incompar nos hemos consolidado en el mercado como el principal proveedor de velas galardonadas de alta gama, velas especiales y soluciones de sombreado de cualquier tamaño y forma.',
 			key_facts: 'Datos clave',
@@ -245,7 +245,7 @@ export default {
 				'<p>Incompar lleva más de 20 años ofreciendo protección contra el sol y la lluvia. Con la ayuda de diseños únicos y la última tecnología 3D, transformamos propiedades de ensueño en algo extraordinario.</p><p>Como socio premium de SunSquare España, Incompar goza de la confianza de sus socios y clientes por la alta calidad de sus productos, instalaciones y servicios en las Islas Baleares, la Península y las Islas Canarias, desde hace más de 20 años. Estamos especializados en proyectos de gran envergadura, hoteles, propiedades privadas y restaurantes.</p><p>Desde el inicio de nuestra consulta sin compromiso hasta el final de nuestra instalación profesional, nuestro principal objetivo es construir una relación a largo plazo con nuestros clientes. Los sistemas siguen funcionando a la perfección desde el primer año.</p><p>Incompar es sinónimo de alta calidad, diseño personalizado y soluciones arquitectónicas para nuestros clientes.</p><p>Llámenos ahora para concertar una cita para una consulta gratuita con el personal experimentado de Sunsquare para determinar la mejor manera de instalar una vela solar en su propiedad.</p>'
 		},
 		reasons: {
-			title: '12 razones para Sunsquare'
+			title: '12 Razones para Sunsquare'
 		},
 		contact: {
 			general: 'General',
