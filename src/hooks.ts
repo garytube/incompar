@@ -3,9 +3,11 @@ import cookie from 'cookie';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	const cookies = event.request.headers.get('cookie');
-	const doesUserSpeakGerman = event.request.headers.get('accept-language')?.includes('de-DE');
 
-	const defaultLang = doesUserSpeakGerman ? 'de' : 'en';
+	// get the highest priority language from the accept-language header
+	const lang = event.request.headers.get('accept-language')?.split(',')?.[0]?.split(';')?.[0];
+
+	const defaultLang = lang;
 
 	if (cookies) {
 		const userCookie = cookie.parse(cookies);
