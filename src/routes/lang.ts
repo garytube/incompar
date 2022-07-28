@@ -9,7 +9,7 @@ import type { Lang } from 'src/global';
  * @param param0
  * @returns
  */
-export const put: RequestHandler = async ({ request }) => {
+export const PUT: RequestHandler = async ({ request }) => {
 	const lang = (await request.text()) as Lang;
 
 	if (lang == 'de' || lang == 'en' || lang == 'es') {
