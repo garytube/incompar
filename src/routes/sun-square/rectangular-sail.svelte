@@ -11,18 +11,28 @@
 	import H1 from '$lib/components/H1.svelte';
 	import ModelList from '$lib/components/lists/ModelList.svelte';
 	import SunSquareLogo from '$lib/components/SunSquareLogo.svelte';
-	import { locale, t, ModelsTranslation as models } from '$lib/translations';
+	import { t, ModelsTranslation as models } from '$lib/translations';
 	import type { Model } from 'src/global';
 
-	import ButtonBlack from '../../lib/components/ButtonBlack.svelte';
-	import FlowerGrid from '../../lib/components/Gallery/FlowerGrid.svelte';
+	import ButtonBlack from '$lib/components/ButtonBlack.svelte';
+	import FlowerGrid from '$lib/components/Gallery/FlowerGrid.svelte';
 
-	const importedImages = import.meta.globEager('$assets/sunsquare/rect/gallery/*.jpg');
-	const importedThumbs = import.meta.globEager('$assets/sunsquare/rect/gallery/thumbs/*.jpg');
-	const slides = Object.entries(importedImages).map((i) => i[1].default);
-	const thumbs = Object.entries(importedThumbs).map((i) => i[1].default);
+	const importedImages = Object.values(
+		import.meta.glob('$assets/sunsquare/rect/gallery/*.jpg', {
+			eager: true,
+			as: 'url'
+		})
+	);
+	const importedThumbs = Object.values(
+		import.meta.glob('$assets/sunsquare/rect/gallery/thumbs/*.jpg', {
+			eager: true,
+			as: 'url'
+		})
+	);
+	const slides = Object.values(importedImages);
+	const thumbs = Object.values(importedThumbs);
 
-	$: rectangularModels = models[$locale].filter((m: Model) => m.type === 'rectangular');
+	$: rectangularModels = models.filter((m: Model) => m.type === 'rectangular');
 </script>
 
 <Container>

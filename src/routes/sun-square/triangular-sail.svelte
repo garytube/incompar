@@ -12,13 +12,19 @@
 	import ModelList from '$lib/components/lists/ModelList.svelte';
 	import SunSquareLogo from '$lib/components/SunSquareLogo.svelte';
 	import H1 from '$lib/components/H1.svelte';
-	import { locale, t, ModelsTranslation as models } from '$lib/translations';
+	import { t, ModelsTranslation as models } from '$lib/translations';
 	import GalleryLightbox from '$lib/components/Gallery/GalleryLightbox.svelte';
 
-	const importedImages = import.meta.globEager('$assets/sunsquare/tri/gallery/*.jpg');
-	const importedThumbs = import.meta.globEager('$assets/sunsquare/tri/gallery/thumbs/*.jpg');
-	const slides = Object.entries(importedImages).map((i) => i[1].default);
-	const thumbs = Object.entries(importedThumbs).map((i) => i[1].default);
+	const importedImages = import.meta.glob('$assets/sunsquare/tri/gallery/*.jpg', {
+		eager: true,
+		as: 'url'
+	});
+	const importedThumbs = import.meta.glob('$assets/sunsquare/tri/gallery/thumbs/*.jpg', {
+		eager: true,
+		as: 'url'
+	});
+	const slides = Object.values(importedImages);
+	const thumbs = Object.values(importedThumbs);
 
 	$: triangularModels = models.filter((m) => m.type === 'triangular');
 </script>
