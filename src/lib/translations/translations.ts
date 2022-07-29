@@ -202,7 +202,7 @@ export default {
 			catchFrase: 'Sol y sombra. 365 días al año.',
 			triangular: {
 				premium: 'VELAS TRIANGULARES PREMIUM.',
-				name: 'TRIANGULARES  ',
+				name: 'Triangulares ',
 				description:
 					'Utilizando la ingeniería patentada de SunSquare, la vela triangular es el último logro en tecnología de velas solares y sombreado. Un sistema de enrollado electrónico construido a medida según el tamaño y las necesidades de cada cliente, utilizando los mejores materiales de acero inoxidable y aluminio del mercado. La vela triangular es la verdadera definición de sombra evolutiva.<br><br>Este producto increíblemente versátil puede instalarse como complemento arquitectónico, como cubierta de patio o incluso como cubierta de espacios abiertos de hasta 80 metros cuadrados por vela. ',
 				content:
@@ -210,7 +210,7 @@ export default {
 			},
 			rectangular: {
 				premium: 'VELAS RECTANGULARES PREMIUM.',
-				name: 'RECTANGULARES ',
+				name: 'Rectangulares ',
 				description:
 					'SunSquare se dio cuenta de que muchos edificios modernos no pueden albergar velas triangulares, por lo que desarrolló el sistema de toldo rectangular más avanzado del mercado actual. Con su reputación de materiales de alta calidad y productos casi invencibles, el toldo rectangular no es menos impresionante que sus hermanos. Estos toldos solares automatizados electrónicamente están construidos con acero inoxidable y aluminio de calidad aeronáutica, hechos a medida para adaptarse a las necesidades de cada cliente. ',
 				content:
