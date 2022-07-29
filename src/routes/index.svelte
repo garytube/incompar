@@ -80,7 +80,7 @@
 	<div class="max-w-7xl mx-auto px-4 mb-12 lg:flex flex-1">
 		<ProductCard
 			src="/sun-square/triangular-sail"
-			title={$t('sails.triangular.name') + ' ' + $t('sails.models')}
+			title={$t('sails.triangular.name_model')}
 			cta={$t('button.explore_triangular')}
 			image={triangular}
 		>
@@ -90,7 +90,7 @@
 		</ProductCard>
 		<ProductCard
 			src="/sun-square/rectangular-sail"
-			title={$t('sails.rectangular.name') + ' ' + $t('sails.models')}
+			title={$t('sails.rectangular.name_model')}
 			cta={$t('button.explore_rectengular')}
 			image={rectangular}
 		>

@@ -29,7 +29,8 @@ export default {
 			catchFrase: 'Sun & Shade, 365 days a year.',
 			triangular: {
 				premium: 'Premium <br/>Triangular Sails',
-				name: 'Triangular  ',
+				name: 'Triangular',
+				name_model: 'Triangular Models',
 				description:
 					"Using SunSquares patented engineering, the triangular sail is the ultimate achievement in sun sail and shading technology. An electronic furling system custom built to each Client's size and needs, using the finest stainless steel and aluminum materials on the market.The trinagular sail is the true definition of evolving shade.This incredibly versatile product can be installed as an architectural accent, a courtyard cover, or even as an open space cover up to 80 square meters per sail.",
 				content:
@@ -38,6 +39,7 @@ export default {
 			rectangular: {
 				premium: 'Premium <br/>Rectangular Sails',
 				name: 'Rectangular',
+				name_model: 'Rectangular Models',
 				description:
 					'SunSquare recognized that many modern buildings cannot accommodate triangular sails so they developed the most advanced rectangular awning system on the market today. With its reputation for high quality materials and nearly invincible products, the Rectangle sun sail is no less impressive than its siblings. These electronically automated sun sails are built from stainless steel and aircraft-grade aluminum, custom made to suit the needs of each client.',
 				content:
@@ -117,7 +119,8 @@ export default {
 			catchFrase: 'Sonne & Schatten, 365 Tage pro Jahr.',
 			triangular: {
 				premium: 'Premium<br/>Dreiecksegel',
-				name: 'Dreieckige ',
+				name: 'Dreieckige',
+				name_model: 'Dreieckige Models',
 				description:
 					'Mit der patentierten Technik von SunSquare ist das Dreiecksegel das ultimative Produkt in der Sonnensegel- und Beschattungstechnologie. Ein elektronisch automatisiertes  Rollsystem, maßgeschneidert für jeden Kunden, unter Verwendung der hochwertigsten verfügbaren Edelstahl- und Aluminiummaterialien; das Dreiecksegel ist die wahre Definition für Schattengebung. Incompar kann für Sie dieses unglaublich vielseitige Produkt als architektonischen Akzent, Hofüberdachung oder sogar als Freiflächenüberdachung bis zu 80qm2 pro Segel installieren. Das Dreieckssegel bietet Schatten, der Ihren Bedürfnissen entspricht.',
 				content:
@@ -126,6 +129,7 @@ export default {
 			rectangular: {
 				premium: 'Premium<br/>Rechtecksegel',
 				name: 'Rechteckige',
+				name_model: 'Rechteckige Models',
 				description:
 					'SunSquare hat erkannt, dass bei vielen modernen Bauten Dreiecksegel nicht brauchbar sind und hat darum das fortschrittlichste rechteckige Sonnensegel-System auf dem Markt entwickelt. Das Rechtecksegel, das seinen Ruf mit hochwertigstem Material für praktisch unverwüstliche Produkte aufrechterhält, ist genauso beeindruckend wie seine Geschwisterprodukte. Maßgeschneidert für die Bedürfnisse jedes Kunden, wird dieses elektronisch automatisierte Sonnensegel aus hochwertigem Edelstahl und Aluminiumteilen in Flugzeugqualität hergestellt.',
 				content:
@@ -185,8 +189,8 @@ export default {
 		imgAlt: 'Velas rectangulares Velas Premium para protección solar',
 		button: {
 			explore_sails: 'Explorar velas',
-			explore_triangular: 'Explorar velas triangulares',
-			explore_rectengular: 'Explorar velas rectangulares',
+			explore_triangular: 'Explorar velas Triangulares',
+			explore_rectengular: 'Explorar velas Rectangulares',
 			twelve_reasons: '12 Razones para SunSquare'
 		},
 		home: {
@@ -203,6 +207,7 @@ export default {
 			triangular: {
 				premium: 'VELAS TRIANGULARES PREMIUM.',
 				name: 'Triangulares ',
+				name_model: 'Modelos Triangular',
 				description:
 					'Utilizando la ingeniería patentada de SunSquare, la vela triangular es el último logro en tecnología de velas solares y sombreado. Un sistema de enrollado electrónico construido a medida según el tamaño y las necesidades de cada cliente, utilizando los mejores materiales de acero inoxidable y aluminio del mercado. La vela triangular es la verdadera definición de sombra evolutiva.<br><br>Este producto increíblemente versátil puede instalarse como complemento arquitectónico, como cubierta de patio o incluso como cubierta de espacios abiertos de hasta 80 metros cuadrados por vela. ',
 				content:
@@ -211,6 +216,7 @@ export default {
 			rectangular: {
 				premium: 'VELAS RECTANGULARES PREMIUM.',
 				name: 'Rectangulares ',
+				name_model: 'Modelos Rectangulares ',
 				description:
 					'SunSquare se dio cuenta de que muchos edificios modernos no pueden albergar velas triangulares, por lo que desarrolló el sistema de toldo rectangular más avanzado del mercado actual. Con su reputación de materiales de alta calidad y productos casi invencibles, el toldo rectangular no es menos impresionante que sus hermanos. Estos toldos solares automatizados electrónicamente están construidos con acero inoxidable y aluminio de calidad aeronáutica, hechos a medida para adaptarse a las necesidades de cada cliente. ',
 				content:
