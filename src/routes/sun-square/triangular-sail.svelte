@@ -59,7 +59,7 @@
 	<div id="models" class="max-w-5xl pt-12 pb-24  sm:pb-40  lg:pb-48">
 		<div class="flex flex-1 space-x-4 items-center mb-12">
 			<SunSquareLogo class="w-20 pb-4 hidden md:block" />
-			<H1>{$t('sails.triangular.name')} {$t('sails.models')}</H1>
+			<H1>{$t('sails.triangular.name_model')}</H1>
 		</div>
 		<div class="mt-12">
 			<ModelList models={triangularModels} />
