@@ -9,19 +9,24 @@
 	import Container from '$lib/components/Container.svelte';
 	import ButtonBlack from '../../lib/components/ButtonBlack.svelte';
 	import FlowerGrid from '$lib/components/Gallery/FlowerGrid.svelte';
-	import models from '../models/_models';
 	import ModelList from '$lib/components/lists/ModelList.svelte';
 	import SunSquareLogo from '$lib/components/SunSquareLogo.svelte';
 	import H1 from '$lib/components/H1.svelte';
-	import { locale, t } from '$lib/translations';
+	import { t, ModelsTranslation as models } from '$lib/translations';
 	import GalleryLightbox from '$lib/components/Gallery/GalleryLightbox.svelte';
 
-	const importedImages = import.meta.globEager('$assets/sunsquare/tri/gallery/*.jpg');
-	const importedThumbs = import.meta.globEager('$assets/sunsquare/tri/gallery/thumbs/*.jpg');
-	const slides = Object.entries(importedImages).map((i) => i[1].default);
-	const thumbs = Object.entries(importedThumbs).map((i) => i[1].default);
+	const importedImages = import.meta.glob('$assets/sunsquare/tri/gallery/*.jpg', {
+		eager: true,
+		as: 'url'
+	});
+	const importedThumbs = import.meta.glob('$assets/sunsquare/tri/gallery/thumbs/*.jpg', {
+		eager: true,
+		as: 'url'
+	});
+	const slides = Object.values(importedImages);
+	const thumbs = Object.values(importedThumbs);
 
-	$: triangularModels = models[$locale].filter((m) => m.type === 'triangular');
+	$: triangularModels = models.filter((m) => m.type === 'triangular');
 </script>
 
 <Container>
@@ -54,7 +59,7 @@
 	<div id="models" class="max-w-5xl pt-12 pb-24  sm:pb-40  lg:pb-48">
 		<div class="flex flex-1 space-x-4 items-center mb-12">
 			<SunSquareLogo class="w-20 pb-4 hidden md:block" />
-			<H1>{$t('sails.triangular.name')} {$t('sails.models')}</H1>
+			<H1>{$t('sails.triangular.name_model')}</H1>
 		</div>
 		<div class="mt-12">
 			<ModelList models={triangularModels} />

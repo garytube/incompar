@@ -3,11 +3,21 @@
 	import { locale } from '$lib/translations';
 
 	const nav = [
-		{ de: 'Dreieck-Segel', en: 'Triangular Sails', href: '/sun-square/triangular-sail' },
-		{ de: 'Rechteck-Segel', en: 'Rectangular Sails', href: '/sun-square/rectangular-sail' },
-		{ de: 'Modelle', en: 'Models', href: '/models' },
-		{ de: 'Über Uns', en: 'About Us', href: '/about-us' },
-		{ de: 'Kontakt', en: 'Contact', href: '/contact' }
+		{
+			de: 'Dreieck-Segel',
+			en: 'Triangular Sails',
+			es: 'Velas Triangulares',
+			href: '/sun-square/triangular-sail'
+		},
+		{
+			de: 'Rechteck-Segel',
+			en: 'Rectangular Sails',
+			es: 'Velas Rectangulares',
+			href: '/sun-square/rectangular-sail'
+		},
+		{ de: 'Modelle', en: 'Models', es: 'Modelos', href: '/models' },
+		{ de: 'Über Uns', en: 'About Us', es: 'Sobre nosotros', href: '/about-us' },
+		{ de: 'Kontakt', en: 'Contact', es: 'Contacto', href: '/contact' }
 	];
 </script>
 

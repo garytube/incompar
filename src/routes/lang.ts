@@ -9,10 +9,10 @@ import type { Lang } from 'src/global';
  * @param param0
  * @returns
  */
-export const put: RequestHandler = async ({ request }) => {
+export const PUT: RequestHandler = async ({ request }) => {
 	const lang = (await request.text()) as Lang;
 
-	if (lang == 'de' || lang == 'en') {
+	if (lang == 'de' || lang == 'en' || lang == 'es') {
 		return {
 			status: 201,
 			headers: {
@@ -22,7 +22,9 @@ export const put: RequestHandler = async ({ request }) => {
 	}
 
 	return {
-		status: 400,
-		body: `not a valid language value: ${lang}`
+		status: 201,
+		headers: {
+			'Set-Cookie': `lang=en; SameSite=Strict; HttpOnly; Path=/`  // default to english
+		}
 	};
 };
