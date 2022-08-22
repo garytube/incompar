@@ -1,8 +1,5 @@
 <script lang="ts">
-	import KeyFact from './KeyFact.svelte';
-
-	// your script goes here
-
+	import KeyFact from '$lib/components/KeyFact.svelte';
 	import Container from '$lib/components/Container.svelte';
 	import ListBlock from '$lib/components/Gallery/ListBlock.svelte';
 	import H1 from '$lib/components/H1.svelte';

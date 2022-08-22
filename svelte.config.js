@@ -6,6 +6,7 @@ const config = {
 	preprocess: [preprocess()],
 
 	kit: {
+		prerender: { enabled: true },
 		adapter: adapter(),
 		methodOverride: {
 			allowed: ['PUT']

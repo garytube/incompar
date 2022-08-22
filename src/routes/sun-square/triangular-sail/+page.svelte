@@ -7,7 +7,7 @@
 	import hero10 from '$assets/sunsquare/tri/10.jpg';
 	import hero11 from '$assets/sunsquare/tri/11.jpg';
 	import Container from '$lib/components/Container.svelte';
-	import ButtonBlack from '../../lib/components/ButtonBlack.svelte';
+	import ButtonBlack from '../../../lib/components/ButtonBlack.svelte';
 	import FlowerGrid from '$lib/components/Gallery/FlowerGrid.svelte';
 	import ModelList from '$lib/components/lists/ModelList.svelte';
 	import SunSquareLogo from '$lib/components/SunSquareLogo.svelte';

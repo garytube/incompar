@@ -1,23 +1,20 @@
 <script lang="ts">
-	import { browser } from '$app/env';
-	import { locale } from '$lib/translations';
+	import { locale, setLocale } from '$lib/translations';
 	import { setLang } from '$lib/store/userLanguage';
-	import { userLanguage } from '$lib/store/userLanguage';
-
-	userLanguage.subscribe(() => {
-		return;
-	});
+	import { invalidate } from '$app/navigation';
 
 	const availableLanguages = ['en', 'de', 'es'];
-
-	$: browser && setLang($locale);
 </script>
 
 {#each availableLanguages as lang}
 	<button
 		class="font-medium mb-6 ml-auto text-right mr-2 flex text-secondary-400  duration-300 py-1 text-sm lg:text-xs  px-2  bg-secondary-100 max-w-max items-center justify-end  hover:opacity-100 "
 		class:active={$locale == lang}
-		on:click={() => setLang(lang)}
+		on:click={() => {
+			setLang(lang);
+			setLocale(lang);
+			// invalidate();
+		}}
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

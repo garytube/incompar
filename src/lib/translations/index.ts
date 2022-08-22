@@ -5,10 +5,10 @@ import ModelsTranslation from './models';
 
 /** @type {import('sveltekit-i18n').Config} */
 const config = {
-	initLocale: 'en',
+	initLocale: 'es',
 	translations
 };
 
-export const { t, l, locales, locale, loadTranslations } = new i18n(config);
+export const { t, l, locales, locale, loadTranslations, setLocale } = new i18n(config);
 
 export { ModelsTranslation, ReasonsTranslation };

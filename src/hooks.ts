@@ -2,24 +2,28 @@ import type { GetSession, Handle } from '@sveltejs/kit';
 import cookie from 'cookie';
 
 export const handle: Handle = async ({ event, resolve }) => {
-	const cookies = event.request.headers.get('cookie');
+
+	const cookies = cookie.parse(event.request.headers.get('cookie') || '');
 
 	// get the highest priority language from the accept-language header
-	const lang = event.request.headers.get('accept-language')?.split(',')?.[0]?.split(';')?.[0];
+	event.locals.lang = event.request.headers.get('accept-language')?.split(',')?.[0]?.split(';')?.[0].split('-')?.[0];
 
-	const defaultLang = lang;
 
-	if (cookies) {
-		const userCookie = cookie.parse(cookies);
-		event.locals.lang = userCookie?.lang || defaultLang;
-	} else {
-		event.locals.lang = defaultLang;
+
+	if (cookies.lang) event.locals.lang = cookies.lang
+
+	const response = await resolve(event, {
+		transformPageChunk: ({ html }) => html.replace(/<html.*>/, `<html lang="${event.locals.lang}">`),
+	});
+
+	if (!cookies['lang']) {
+		response.headers.set(
+			'set-cookie',
+			cookie.serialize('lang', event.locals.lang, { path: '/', httpOnly: true, sameSite: 'Strict' }))
+
 	}
 
-	const response = await resolve(event);
-	return response;
+	return response
 };
 
-export const getSession: GetSession = ({ locals }) => {
-	return { lang: locals.lang };
-};
+

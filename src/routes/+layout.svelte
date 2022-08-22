@@ -1,17 +1,6 @@
-<script context="module">
-	import { loadTranslations } from '$lib/translations';
-
-	/** @type {import('@sveltejs/kit').Load} */
-	export const load = async ({ session }) => {
-		await loadTranslations(session.lang);
-		return {};
-	};
-</script>
-
 <script>
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
-
 	import '../app.css';
 </script>
 
