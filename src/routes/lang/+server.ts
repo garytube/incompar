@@ -1,5 +1,7 @@
-import type { RequestHandler } from '@sveltejs/kit';
+
+import type { RequestHandler } from './$types';
 import type { Lang } from 'src/global';
+import { invalidate } from '$app/navigation';
 
 /**
  * This Endpoint soul purpose is to return the current language selected by the user.
@@ -13,18 +15,19 @@ export const PUT: RequestHandler = async ({ request }) => {
 	const lang = (await request.text()) as Lang;
 
 	if (lang == 'de' || lang == 'en' || lang == 'es') {
-		return {
-			status: 201,
+		return new Response(lang, {
 			headers: {
+				'content-type': 'application/json; charset=utf-8',
 				'Set-Cookie': `lang=${lang}; SameSite=Strict; HttpOnly; Path=/`
 			}
-		};
-	}
+		})
 
-	return {
-		status: 201,
-		headers: {
-			'Set-Cookie': `lang=en; SameSite=Strict; HttpOnly; Path=/`  // default to english
-		}
+	} else {
+		return new Response('en', {
+			headers: {
+				'content-type': 'application/json; charset=utf-8',
+				'Set-Cookie': `lang=en; SameSite=Strict; HttpOnly; Path=/`
+			}
+		})
 	};
-};
+}

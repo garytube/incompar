@@ -10,8 +10,11 @@
 	import triangular from '$assets/sunsquare/tri/gallery/thumbs/1.jpg';
 	import { t } from '$lib/translations';
 
-	const images = import.meta.globEager('$assets/slider_homepage/*.jpg');
-	const slides = Object.entries(images).map((i) => i[1].default);
+	const importedImages = import.meta.glob('$assets/slider_homepage/*.jpg', {
+		eager: true,
+		as: 'url'
+	});
+	const slides = Object.values(importedImages);
 </script>
 
 <div class="max-w-7xl w-full mx-auto px-4">

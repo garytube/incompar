@@ -7,9 +7,7 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		methodOverride: {
-			allowed: ['PUT']
-		},
+
 		files: {
 			assets: 'src/static'
 		}
