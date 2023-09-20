@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/env';
+	import { browser } from '$app/environment';
 	// import { t } from '$lib/translations';
 	import { createEventDispatcher } from 'svelte';
 
@@ -59,9 +59,9 @@
 	transition:fade={{ duration: 100 }}
 	id="modal"
 	on:click|self={() => (src = undefined)}
-	class="h-screen w-screen bg-slate-800 bg-opacity-90 fixed z-50 inset-0 flex flex-col items-center justify-center "
+	class="h-screen w-screen bg-slate-800 bg-opacity-90 fixed z-50 inset-0 flex flex-col items-center justify-center"
 >
-	<img {src} alt="incompar" class="h-[80vh]  lg:h-[85vh]  shadow-slate-800 shadow-lg" />
+	<img {src} alt="incompar" class="h-[80vh] lg:h-[85vh] shadow-slate-800 shadow-lg" />
 	<div class="flex space-x-2 py-2 mt-2">
 		<!-- <button on:click={prevSlide} class="text-white">{$t('prev')}</button> -->
 		{#each thumbs as s, index (s)}

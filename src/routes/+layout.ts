@@ -2,6 +2,8 @@
 import { loadTranslations } from '$lib/translations';
 import type { LayoutData } from '../../.svelte-kit/types/src/routes/$types';
 
+export const prerender = 'auto';
+
 export const load: LayoutData = async ({ data }) => {
 
   await loadTranslations(data.lang)
